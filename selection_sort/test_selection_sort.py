@@ -9,8 +9,4 @@ def test_reverse():
 def test_duplicates():
     assert selection_sort([29, 10, 14, 37, 14]) == [10, 14, 14, 29, 37]
 
-if __name__ == "__main__":
-    test_sorted()
-    test_reverse()
-    test_duplicates()
-    print("Tests Successful!")
+
