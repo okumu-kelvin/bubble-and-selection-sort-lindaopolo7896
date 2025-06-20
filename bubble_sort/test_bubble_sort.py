@@ -9,3 +9,8 @@ def test_reverse():
 def test_duplicates():
     assert bubble_sort([4, 5, 3, 4]) == [3, 4, 4, 5]
 
+if __name__ == "__main__":
+    test_sorted()
+    test_reverse()
+    test_duplicates()
+    print("Tests Successful!")
